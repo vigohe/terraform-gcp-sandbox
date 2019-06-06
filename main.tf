@@ -20,3 +20,11 @@ module "redis" {
   project    = "${var.project}"
   redis_name = "${var.redis_name}"
 }
+
+output "postgres_user" {
+  value = "${module.postgres.postgres_user}"
+}
+
+output "postgres_password" {
+  value = "${module.postgres.postgres_password}"
+}
