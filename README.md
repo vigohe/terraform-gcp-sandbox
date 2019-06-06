@@ -1,3 +1,9 @@
+# terraform modules
+
+resource:
+
+* https://www.terraform.io/docs/providers/google/r/sql_database_instance.html
+* https://www.terraform.io/docs/providers/google/r/redis_instance.html
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs
