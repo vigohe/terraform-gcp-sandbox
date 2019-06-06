@@ -22,7 +22,7 @@ resource "random_string" "db-password" {
   special = false
 }
 
-resource "google_sql_user" "users" {
+resource "google_sql_user" "this" {
   name     = "admin"
   instance = "${google_sql_database_instance.this.name}"
   password = "${random_string.db-password.result}"
