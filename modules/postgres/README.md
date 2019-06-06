@@ -12,6 +12,8 @@
 
 | Name | Description |
 |------|-------------|
+| postgres\_instance\_connection |  |
+| postgres\_instance\_name |  |
 | postgres\_password |  |
 | postgres\_user |  |
 

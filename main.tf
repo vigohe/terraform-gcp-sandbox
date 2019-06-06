@@ -28,3 +28,11 @@ output "postgres_user" {
 output "postgres_password" {
   value = "${module.postgres.postgres_password}"
 }
+
+output "postgres_instance_connection" {
+  value = "${module.postgres.postgres_instance_connection}"
+}
+
+output "postgres_instance_name" {
+  value = "${module.postgres.postgres_instance_name}"
+}
