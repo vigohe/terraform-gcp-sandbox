@@ -4,6 +4,6 @@ provider "google" {
 }
 
 resource "google_redis_instance" "this" {
-  name           = "memory-cache"
+  name           = "${var.redis_name}"
   memory_size_gb = 1
 }
